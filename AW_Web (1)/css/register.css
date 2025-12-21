@@ -1,0 +1,75 @@
+.register-form {
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    font-family: Arial, sans-serif;
+}
+
+.login-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.login-table td {
+    padding: 10px 0;
+    font-size: 15px;
+    color: #724725;
+}
+
+.login-table input[type="text"],
+.login-table input[type="password"] {
+    width: 100%;
+    margin-top: 6px;
+    padding: 8px 10px;
+
+    background-color: #fff;
+    color: #000;
+
+    border: 1px solid #724725;
+    border-radius: 0;
+    outline: none;
+}
+
+.login-table input:focus {
+    border-color: #9a5f36;
+}
+
+.login-table input[type="submit"] {
+    width: 100%;
+    margin-top: 15px;
+    padding: 9px 0;
+
+    background-color: #9a5f36;
+    color: #fff;
+
+    border: 2px solid #9a5f36;
+    border-radius: 6px;
+    cursor: pointer;
+
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.login-table input[type="submit"]:hover {
+    background-color: #fff;
+    color: #9a5f36;
+}
+
+.login-action {
+    text-align: center;
+}
+
+.register-link {
+    display: block;
+    margin-top: 10px;
+    color: #724725;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
